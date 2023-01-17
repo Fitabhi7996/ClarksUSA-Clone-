@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin-left: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.K1 {
+    width: 100%;
+    border: 2px solid red;
+    padding: 0px 0px 0px 0px;
+    background-color: #d0c9b9;
+}
+.K1 > image {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.K11 {
+    margin-top: 0px;
+    margin: 0px;
+    width: 100%;
+    border: 2px solid rgb(14, 13, 13);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30% 60px 30%;
+
+}
+
+.K11 > h1 {
+ text-align: center;
+}
+
+.K11 > p {
+ text-align: center;
+}
+
+.K12 {
+    border: 2px solid rgb(15, 173, 110);
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.K12  button{
+padding: 7px 30px;
+border-radius: 2px;
+}
+.K12 > button:first-child {
+    margin-right: 30px;
+}
+
+.K12  a {
+    color: black;
+}
+
+.K12  a:link{
+    text-decoration: none;
+    
+}
+.K12  a:visited{
+    text-decoration: none;
+    
+
+}
+.K12  a:hover{
+    text-decoration: none;
+    
+}
+.K12  a:active{
+    text-decoration: none;
+}
+
+.K2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 2px solid red;
+    padding: 4px 4px;
+    background-color: #045c9e;
+    color: white;
+    font-size: 17.5px;
+    font-weight: 600;
+}
+
+.K21 {
+    border: 3px solid whitesmoke;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.K21  a{
+    padding-left: 50px;
+}
+.K21 span {
+    font-weight: bolder;
+}
+
+
+.K21  a {
+    color: white;
+}
+
+.K21  a:link{
+    
+    
+}
+.K21  a:visited{
+    text-decoration: none;
+    
+
+}
+.K21  a:hover{
+    text-decoration: none;
+    
+}
+.K21  a:active{
+    text-decoration: none;
+}
+
+.K3 {
+    width: 100%;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+
+    gap: 40px;
+    padding: 0px 40px;
+}
+
+.K3 img {
+    width: 100%;
+    z-index: -1;
+}
+
+
+.K32 {
+    z-index: 1;
+}
+
+
+
+.K4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 2px solid red;
+    padding: 4px 4px;
+    background-color: #fcb3c7;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.K41 {
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.K41 img {
+    width: 7%;
+}
+
+.K41  a{
+    padding-left: 50px;
+    color: black;
+    font-size: 13px;
+}
+
+.K41  a:link{
+    
+    
+}
+.K41  a:visited{
+    text-decoration: none;
+    
+
+}
+.K41  a:hover{
+    text-decoration: none;
+    
+}
+.K41  a:active{
+    text-decoration: none;
+}
+
