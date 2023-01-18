@@ -1,3 +1,158 @@
+
+
+      
+       /* @font-face {
+           font-family: 'Montserrat', sans-serif;
+           src: url('https://fonts.googleapis.com/css?family=Montserrat');
+           
+       } */
+       body{
+           margin: 0px;
+           padding: 0px;
+       }
+       nav{
+           font-family: 'Montserrat', sans-serif;               
+       }
+        #clearance{
+           background-color: #FAC3BC;
+           padding: 5px;
+           text-align: center;
+           color: #000000;        
+       }
+       #clearance :nth-child(1){
+           font-size: 15px;
+           padding: 0px 30px 0px 0px; 
+       }
+       #clearance :nth-child(2){
+           font-size: 25px;
+       }
+       #clearance :nth-child(3){
+           font-size: 13px;
+           padding: 0px 0px 0px 30px;
+       }
+       #trackorder{
+           display: flex;
+           justify-content: right;
+           background-color:  rgb(243,243,243);
+           align-items: center;
+           height: 45px;
+           padding: 0px 145px 0px 0px;
+           color: #333333;
+       }
+       #trackorder img{
+           width: 20px;
+           height: 20px;                        
+       }
+       #trackorder span{
+           font-size: 13px;
+           padding: 0px 10px 0px 35px;
+       }
+       #clarks{
+           display: flex;
+           /* background-color: red; */
+           justify-content: space-between; 
+           padding: 0px 150px 0px 150px;  
+           align-items: center;
+       }
+       #clarks>span{
+           display: flex;
+       }        
+       #clarks :nth-child(1) img{            
+           width: 100px;
+           height: 50px; 
+           margin-top: 12px;           
+       }
+       #clarks :nth-child(2) img{
+           width: 35px;
+           height: 35px; 
+           padding: 10px 15px;           
+       }
+       #clarks p{
+          color: #333333; 
+          font-size: 14px;
+          padding: 20px 15px 10px;           
+       }
+       hr{
+           margin: 0px;                          
+       }
+       #shipping{
+           font-size: 14px;         
+           margin: 0px 0px 10px; 
+       }
+       #shipping div{
+           background-color: #DCDCDC;
+           width: 90%;
+           margin: auto;            
+           padding: 15px;
+           text-align: center; 
+           color: #333333; 
+       }
+       #shipping span{
+           font-size: 14px;
+           padding: 5px;
+       }
+       #shipping div :nth-child(1),#shipping div :nth-child(4) {
+           text-decoration: underline solid black;                      
+       }
+       #shipping div :nth-child(3){
+           margin-left: 15px;
+           margin-right: 15px;           
+       }
+       #pinksection{
+           display: flex;
+           width: 87%;
+           margin: auto;
+           background-color:rgb(250,195,188);
+           justify-content: space-between;
+           font-family: sans-serif;
+           color: #000000;
+           /* font-family: ; */
+       }
+       #pinksection div{
+           text-align: center;           
+       }
+       #pinksection div p:nth-child(1){
+           font-size: 40px;
+           margin: 0px 85px 18px;
+           padding: 45px 30px 0px;            
+       }
+       #pinksection div p:nth-child(2){
+           font-size: 22px;
+           margin: 0px 125px 18px;
+       }
+       #pinksection div p:nth-child(3){
+           font-size: 100px;
+           margin: 0px 125px 18px;
+           padding: 0px 0px 30px;   
+       }
+       #pinksection div p:nth-child(4){
+           background-color: #000000;
+           color: #FFFFFF;
+           font-size: 25px;
+           margin: 0px 90px 18px; 
+       }
+       #pinksection div p:nth-child(5){
+           font-size: 17px;
+           /* font-family: ; */
+           margin: 0px 125px 18px; 
+           padding: 0px 0px 10px;   
+       }
+       #pinksection div span:nth-child(6) button{
+           background-color: #000000;
+           color: #FFFFFF;
+           font-size: 14px;
+           margin: 0px 10px 10px;
+           padding:10px 28px;
+           border-radius: 5px; 
+       }
+       #pinksection div p:nth-child(7){
+           font-size: 12px;
+           margin: 10px 0px 25px 0px;
+       }
+       #pinksection div p:nth-child(7) span{
+           text-decoration: underline solid black;
+       }
+  
 *{
     box-sizing: border-box;
     margin-left: 0;
