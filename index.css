@@ -50,28 +50,39 @@
        #clarks{
            display: flex;
            /* background-color: red; */
-           justify-content: space-between; 
+           /* justify-content: space-between;  */
            padding: 0px 150px 0px 150px;  
-           align-items: center;
+          
+           gap: 2%;
        }
-       #clarks>span{
-           display: flex;
-       }        
+        #logo{
+           
+         
+        }
+        #navbaritems{
+          
+
+        }
        #clarks :nth-child(1) img{            
            width: 100px;
            height: 50px; 
            margin-top: 12px;           
        }
-       #clarks :nth-child(2) img{
+        #clarks :nth-child(3) img{
            width: 35px;
            height: 35px; 
-           padding: 10px 15px;           
+           padding: 10px 15px;            */
        }
        #clarks p{
           color: #333333; 
-          font-size: 14px;
-          padding: 20px 15px 10px;           
+          font-size: 15px;
+          padding: 20px 15px 10px; 
+          line-height: 1;
+          letter-spacing: .30px;          
        }
+       /* #clarks p:hover{
+        cursor: pointer;
+       } */
        hr{
            margin: 0px;                          
        }
@@ -420,5 +431,74 @@ background-color: white;
     background-color: rgb(63, 63, 63);
     color: white;
 }
+
+/* ------------------------navbarStyling------------------------ */
+
+#navWomen{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#f3f3f3; 
+}
+#navMen{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#473939; 
+}
+#navKids{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#f3f3f3; 
+}
+#navOriginal{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#f3f3f3; 
+}
+#navAcces{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#f3f3f3; 
+}
+#navSale{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#f3f3f3; 
+}
+#navSustain{
+    height: 300px;
+    width: 99.99%;
+    border: 1px solid black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:#f3f3f3; 
+    
+}
+
+
 
 /* ----------------------fw23_0018(Shivansh Soni)_CSS_End------------------------- */
