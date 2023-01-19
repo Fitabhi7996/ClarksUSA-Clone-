@@ -1,0 +1,208 @@
+    
+     
+       body{
+        margin: 0px;
+        padding: 0px;
+    }
+    nav{
+        font-family: 'Montserrat', sans-serif;               
+    }
+     #clearance{
+        background-color: #FAC3BC;
+        padding: 5px;
+        text-align: center;
+        color: #000000;        
+    }
+    #clearance :nth-child(1){
+        font-size: 15px;
+        padding: 0px 30px 0px 0px; 
+    }
+    #clearance :nth-child(2){
+        font-size: 25px;
+    }
+    #clearance :nth-child(3){
+        font-size: 13px;
+        padding: 0px 0px 0px 30px;
+    }
+    #trackorder{
+        display: flex;
+        justify-content: right;
+        background-color:  rgb(243,243,243);
+        align-items: center;
+        height: 45px;
+        padding: 0px 145px 0px 0px;
+        color: #333333;
+    }
+    #trackorder img{
+        width: 20px;
+        height: 20px;                        
+    }
+    #trackorder span{
+        font-size: 13px;
+        padding: 0px 10px 0px 35px;
+    }
+    #clarks{
+        display: flex;
+        /* background-color: red; */
+        /* justify-content: space-between;  */
+        padding: 0px 150px 0px 150px;  
+       
+        gap: 2%;
+    }
+     #logo{
+        
+      
+     }
+     #navbaritems{
+       
+
+     }
+    #clarks :nth-child(1) img{            
+        width: 100px;
+        height: 50px; 
+        margin-top: 12px;           
+    }
+     #clarks :nth-child(3) img{
+        width: 35px;
+        height: 35px; 
+        padding: 10px 15px;            
+    }
+    #clarks p{
+       color: #333333; 
+       font-size: 15px;
+       padding: 20px 15px 10px; 
+       line-height: 1;
+       letter-spacing: .30px;          
+    }
+    /* #clarks p:hover{
+     cursor: pointer;
+    } */
+    hr{
+        margin: 0px;                          
+    }
+    #shipping{
+        font-size: 14px;         
+        margin: 0px 0px 10px; 
+    }
+    #shipping div{
+        background-color: #DCDCDC;
+        width: 90%;
+        margin: auto;            
+        padding: 15px;
+        text-align: center; 
+        color: #333333; 
+    }
+    #shipping span{
+        font-size: 14px;
+        padding: 5px;
+    }
+    #shipping div :nth-child(1),#shipping div :nth-child(4) {
+        text-decoration: underline solid black;                      
+    }
+    #shipping div :nth-child(3){
+        margin-left: 15px;
+        margin-right: 15px;           
+    }
+
+/* ------------------------------------------------------------------ */
+    #mainbody{
+        font-family: sans-serif;
+    }
+    #bluebar{
+        background-color: #F3F3F3;
+    }
+    #tillpinkbar{
+        display: flex;
+        width:80%;
+        margin: auto;
+    }
+    #left{
+        width:10%;
+        margin: auto;
+    }
+    .make90{
+        width:90px;
+        height:90px
+    }
+    #mid{
+        width:50%;
+        display: flex;
+        align-items:flex-end;
+    }
+    #mid img{
+        width:100%;
+        /* align-items: baseline; */
+    }
+
+    #toright{
+        width:40%;
+    }
+
+
+#ProdDesc{
+    display: flex;
+    width:80%;
+    margin: auto;
+    background-color: #F3F3F3;
+}
+
+
+#proddetailsandpayments{
+    display: flex;
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+#prodDetails{
+    width:50%;
+}
+
+#prodDetails>div{
+    display: flex;
+    /* border: 2px dashed green; */
+    text-align: left;
+}
+#prodPayments{
+    width:50%; 
+}
+
+
+#othersBought{
+    text-align: center;
+    width:90%; 
+    margin: auto;
+    /* justify-content: space-between; */
+}
+
+#othersBought>div{
+    display: flex;
+    border: 2px dashed green;   
+    justify-content: space-between; 
+}
+#othersBought>div>div{
+    border: 2px dashed red;  
+    width:22%  
+}
+#othersBought img{
+    width:70%
+}
+#othersBought p{
+    text-align: right;
+}
+
+.L{
+    text-align: left;
+}
+.R{
+    text-align: right;
+}
+
+
+#Reviews{
+    width:90%; 
+    margin: auto;
+    border: 2px dashed green
+}
+#Reviews img{
+    /* width:100% */
+}
