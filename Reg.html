@@ -1,22 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
-    
-    <title>BEST SELLERS</title>
-    <link rel="stylesheet" href="./bestsellers.css" type="text/css" >
-    
-    <link rel="stylesheet" href="./index.css">
+    <title>Clarks Login</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        body {
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .login-form {
+            margin: 40px auto;
+            padding: 20px;
+            width: 33%;
+            /* background:#f9f9f9; */
+            border-radius: 10px;
+            height: 50vh;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"],
+        .login-form input[type="email"]{
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+
+        .login-form input[type="submit"] {
+            background: #798188;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            font-family: "Montserrat", sans-serif;
+            width: 96%;
+            border: 0px;
+            border-radius: 3px;
+        }
+
+        .login-form a {
+            font-size: 12px;
+            font-weight: bold;
+            /* color: #000; */
+            /* text-decoration: none; */
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .L1 {
+            border-top: 1px solid #cfcfcf;
+            border-bottom: 1px solid #cfcfcf;
 
 
+        }
 
+        .l1 {
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
+        #check {
+
+            width: 25px;
+            height: 25px;
+        }
+
+        #check,
+        #check+label {
+            margin: 25px 0px 25px 0px;
+            justify-content: center;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .l1 p {
+            font-size: 3rem;
+            font-weight: 50%;
+            color: #333333;
+        }
+        #show{
+    margin-left:-50px ;
+    color: #0579d0;
+    font-size: smaller;
+    text-decoration: underline;
+    cursor: pointer;
+}
+    </style>
 </head>
+
 <body>
     <nav>
         <div id="clearance">
@@ -29,7 +113,7 @@
         </div>
         <div id="clarks">
             <div id="logo"><img src="./clarks img.jpg" alt=""></div>
-
+    
             <div id="navbaritems">
                 <div class="dropdown">
                     <p class="dropbtn">Women</p>
@@ -134,7 +218,7 @@
             </div>
         </div>
         <hr>
-
+    
         <div id="shipping">
             <div>
                 <span>FREE SHIPPING</span>
@@ -145,95 +229,37 @@
             </div>
         </div>
     </nav>
-
-    
-    <div class="K5">
-        
-
-        <div class="K51">
-            <h1>WOMENS BEST SELLERS</h1>
-            <p>Our most popular women's styles for this season.
-            </p>
-
-            <div class="K52">
-                <button><a href="" onclick="return false">ALL WOMENS STYLES</a></button>
-                <button><a href="" onclick="return false">WOMENS NEW ARRIVALS</a></button>
-                
+    <div class="L1">
+        <div class="l1">
+            <div>
+                <p>CREATE AN ACCOUNT</p>
             </div>
+            <div>Need help?</div>
         </div>
-
-
-
     </div>
+    <div class="login-form">
 
-    <div class="K6">
-        <button><a href="./index.html">HOME</a></button>
-        <button><a href="./bestsellers.html">WOMENS BEST SELLERS</a></button>
+        <form action="">
+            <label for="E-mail">E-mail address</label><br>
+            <input type="email" /><br>
+            <label for="Fname">First Name</label><br>
+            <input type="text"><br>
+            <label for="Lname">Last Name</label><br>
+            <input type="text"><br>
 
-
-    </div>
-    <div class="K7">
-        <div class="K71">
-            <select id="KS711">
-                <option value="">Select Material</option>
-                <option value="Black Leather">Black Leather</option>
-                <option value="Tortoiseshell">Tortoiseshell</option>
-                <option value="White Leather">White Leather</option>
-                
-                <option value="Tan Embroidery">Tan Embroidery</option>
-                <option value="Blue Suede">Blue Suede</option>
-                <option value="Sand Metallic">Sand Metallic</option>
-               
-                <option value="Maple Suede">Maple Suede</option>
-                <option value="Oakmoss Nubuck">Oakmoss Nubuck</option>
-                <option value="Grey Nubuck">Grey Nubuck</option>
-                
-                
-                <option value="Light Grey Combination">Light Grey Combination</option>
-                <option value="Off White Text">Off White Text</option>
-
-              </select>
-              <select id="KS712">
-                <option value="">Select Price Range</option>
-                <option value="0-100">0-100</option>
-                <option value="100-200">100-200</option>
-                
-              </select>
-              <select id="category">
-                <option value="">Select Size</option>
-                <option value="F">5-7</option>
-                <option value="S">7-8</option>
-                <option value="F">8-9</option>
-                <option value="F">Above 9</option>
-              </select>
-              <select id="category">
-                <option value="">Select Category</option>
-                <option value="F">X</option>
-                <option value="S">Y</option>
-                <option value="F">Z</option>
-              </select>
-
-        </div>
-        <div class="K72">
-            <div class="K721">
-                <h3><span id="count">0</span>   STYLES   FOUND</h3>
-                <select id="KS1">
-                    <option value="">Sort By: </option>
-                    <option value="ascending">A-Z</option>
-                    <option value="descending">Z-A</option>
-        
-                  </select>
-    
-
-            </div>
-            <div id="K722">
-
-            </div>
-
-        </div>
+            <!-- <input type="Lname"> -->
+            <label for="Password">Create Your Password</label>
+            <input type="password" id="pass"/><span id="show">Show</span>
+            <!-- <a href="#">Create Your Password?</a><br> -->
+            <div style="display: flex; align-items: center;">
+                <input type="checkbox" id="check"><label style="color:#798188;">&nbsp; Remember Me</label>
+              </div>
+            <input type="submit" value="CREATE ACCOUNT" />
+            <p>By creating this account you agree to our <a href="#"> Terms & Conditions.</a> </p>
+            <p>Already have a Clarks Account? <a href="#">Log In</a></p>
 
 
-
+        </form>
     </div>
     <footer>
         <div class="L1">
@@ -334,10 +360,14 @@
             
         </div>
     </footer>
-
-
-    
 </body>
 
-<script src="./newarrivals.js"></script>
 </html>
+<script>
+
+    document.getElementById("show").addEventListener("click",()=>{
+      document.getElementById("pass").setAttribute("type","text");
+      document.getElementById("show").textContent="Hide";
+    })
+</script>
+<script src="https://kit.fontawesome.com/d6704551e9.js" crossorigin="anonymous"></script>
