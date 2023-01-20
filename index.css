@@ -68,6 +68,47 @@
        
      /* border: 1px solid; */
      }
+     /* shivansh css */
+     .dropbtn {
+
+        color: rgb(63, 63, 63);
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        gap: 20px;
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 850px;
+        height: auto;
+        margin-left: -250px;
+        z-index: 1;
+        padding: 10px 30px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    .dropdown-content div li{
+        color:#333; ;
+        line-height: 30px;
+    }
+
      #searchCart{
          /* border: 1px solid; */
          display: flex;
@@ -87,7 +128,7 @@
        }
        #shipping div{
            background-color: #DCDCDC;
-           width: 90%;
+           width: 100%;
            margin: auto;            
            padding: 15px;
            text-align: center; 
@@ -106,7 +147,7 @@
        }
        #pinksection{
            display: flex;
-           width: 87%;
+           width: 95%;
            margin: auto;
            background-color:rgb(250,195,188);
            justify-content: space-between;
@@ -174,7 +215,7 @@ body{
 }
 .K1 {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0px 0px 0px 0px;
     background-color: #d0c9b9;
 }
@@ -188,7 +229,7 @@ body{
     margin-top: 0px;
     margin: 0px;
     width: 100%;
-    border: 2px solid rgb(14, 13, 13);
+    /* border: 2px solid rgb(14, 13, 13); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,7 +247,7 @@ body{
 }
 
 .K12 {
-    border: 2px solid rgb(15, 173, 110);
+    /* border: 2px solid rgb(15, 173, 110); */
     display: flex;
     justify-content: space-between;
 
@@ -245,7 +286,7 @@ border-radius: 2px;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 4px 4px;
     background-color: #045c9e;
     color: white;
@@ -292,7 +333,7 @@ border-radius: 2px;
 
 .K3 {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-content: space-evenly;
@@ -317,7 +358,7 @@ border-radius: 2px;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 4px 4px;
     background-color: #fcb3c7;
     color: white;
@@ -363,6 +404,7 @@ border-radius: 2px;
 .S_firstImage {
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .S_WINTER_REBOOT_heading {
@@ -497,3 +539,123 @@ background-color: white;
 
 
 /* ----------------------fw23_0018(Shivansh Soni)_CSS_End------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+    /* *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    } */
+    .L1 {
+        border-top: 1px solid rgb(188, 184, 184);
+        border-bottom: 1px solid rgb(188, 183, 183);
+        display: flex;
+        justify-content: space-between;
+        height: 9vh;
+        align-items: center;
+    }
+
+    .L2 {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 35px;
+        font-size: 20px;
+        
+    }
+
+    .child {
+        display: flex;
+        /* border: 1px solid red; */
+        width: 40%;
+
+    }
+
+    input {
+        width: 250px;
+        height: 45px;
+    }
+
+    #footerbtn {
+        height: 50px;
+        width: 50px;
+    }
+
+    .one {
+        width: 22%;
+        justify-content: space-evenly;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .two {
+        width: 40%;
+        justify-content: space-evenly;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .L6 {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+        font-family: "Montserrat",sans-serif;
+
+    }
+
+  
+    .L3{
+        display: flex;
+        width: 80%;
+        /* border: 1px solid red; */
+        margin: auto;
+        /* margin-top: 25px; */
+        justify-content: space-between;
+        height: 10vh;
+        font-family: "Montserrat",sans-serif;
+        /* background-color: green; */
+        align-items: center;
+
+    }
+    #L4{
+        width: 80%;
+        margin: auto;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    .fli{
+        width: 25%;
+
+    }
+    .fli p{
+        margin-left: 10px;
+    }
+    .L7{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(57, 56, 56);
+        display: flex;
+        color: white;
+        justify-content: space-between;
+    }
+    .L5{
+        background-color: rgb(241, 241, 241);
+    }
+    .L8{
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+    }
+    .L9{
+        width: 50%;
+        /* border:1px solid rgb(104, 170, 206); */
+    }
+    .footerimg{
+        width: 100px;
+        height: 60px;
+    }
+    .L9 p+img{
+        margin-left: 120px;
+       
+    }
