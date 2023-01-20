@@ -1,9 +1,11 @@
 let mycontainer=document.getElementById("K722");
 let myfilterKS1=document.getElementById("KS1");
-
+let myfilterKS711=document.getElementById("KS711");
+let myfilterKS712=document.getElementById("KS712");
 let Forfilter=[];
  
     let myheading=document.getElementById("count");
+    let count=0;
  
     let LSdata=JSON.parse(localStorage.getItem("current"));
     if(LSdata==null){
@@ -53,6 +55,53 @@ let Forfilter=[];
 
 
 
+    })
+
+
+    myfilterKS712.addEventListener("change",function(){
+      
+      if(myfilterKS712.value=="0-100"){
+        let myfiltered=Forfilter.filter(function(element,index){
+          if(element.price >=0 && element.price<100){
+            return true;
+          }else{
+            return false;
+          }
+          
+        })
+        createDOM(myfiltered);
+        
+      }
+      if(myfilterKS712.value=="100-200"){
+        let myfiltered=Forfilter.filter(function(element,index){
+          if(element.price >=100 && element.price<200){
+            return true;
+          }else{
+            return false;
+          }
+          
+        })
+        createDOM(myfiltered);
+        
+      }
+
+      if(myfilterKS712.value==""){
+        createDOM(Forfilter);
+      }
+    })
+    
+    myfilterKS711.addEventListener("change",function(){
+      let myfiltered=Forfilter.filter(function(element,index){
+        if(element.material==myfilterKS711.value){
+          return true;
+        }else{
+          return false;
+        }
+      })
+      createDOM(myfiltered);
+      if(myfilterKS711.value==""){
+        createDOM(Forfilter);
+      }
     })
 
 
@@ -106,7 +155,7 @@ let Forfilter=[];
 
 
         let myprice=document.createElement("h3");
-        myprice.innerText=element.price;
+        myprice.innerText=`$ ${element.price}`;
 
        let myanchortag=document.createElement("a");
        myanchortag.setAttribute("href","./nextpageprovided by neha")
@@ -142,6 +191,8 @@ let Forfilter=[];
 
 
       })
+      count=data.length;
+      myheading.innerHTML=count;
 
 
 

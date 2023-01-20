@@ -100,6 +100,35 @@ background-color: white;
     width: 100%;
     display: flex;
 }
+
+
+.K7 h3 {
+margin: 0px;
+ color: #333333;
+}
+.K7 p {
+    margin: 0px;
+    color: #666;
+}
+.K7 select {
+    margin: 10px;
+padding: 7px 5px;
+border-radius: 2px;
+white-space: nowrap;
+
+color: #666;
+/* border: 1px solid #666; */
+background-color: white;
+}
+.K71 select {
+    border: 0px;
+    border-bottom: 3px solid #f3f3f3 ;
+}
+.K721 select {
+    padding: 7px 40px;
+    
+}
+
 .K71 {
     width: 20%;
 }
@@ -126,3 +155,39 @@ background-color: white;
 .K721 h4 {
 
 }
+
+
+#K722 {
+    padding: 20px 20px 20px 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+    
+}
+#K722 > div {
+ padding: 20px 20px ;   
+
+
+}
+#K722 > div > div {
+    padding: 5px 40px 5px 5px;
+       width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   }
+#K722 button {
+    padding: 7px 30px;
+    border-radius: 2px;
+    white-space: nowrap;
+    text-align: center;
+    color: #666;
+    border: 1px solid #666;
+    background-color: white;
+}
+
+
+   
