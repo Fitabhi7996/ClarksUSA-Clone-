@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clarks Login</title>
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        body {
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .login-form {
+            margin: 40px auto;
+            padding: 20px;
+            width: 33%;
+            /* background:#f9f9f9; */
+            border-radius: 10px;
+            height: 50vh;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"],
+        .login-form input[type="email"]{
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+
+        .login-form input[type="submit"] {
+            background: #798188;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            font-family: "Montserrat", sans-serif;
+            width: 96%;
+            border: 0px;
+            border-radius: 3px;
+        }
+
+        .login-form a {
+            font-size: 12px;
+            font-weight: bold;
+            /* color: #000; */
+            /* text-decoration: none; */
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .L1 {
+            border-top: 1px solid #cfcfcf;
+            border-bottom: 1px solid #cfcfcf;
+
+
+        }
+
+        .l1 {
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #check {
+
+            width: 25px;
+            height: 25px;
+        }
+
+        #check,
+        #check+label {
+            margin: 25px 0px 25px 0px;
+            justify-content: center;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .l1 p {
+            font-size: 3rem;
+            font-weight: 50%;
+            color: #333333;
+        }
+        #show{
+    margin-left:-50px ;
+    color: #0579d0;
+    font-size: smaller;
+    text-decoration: underline;
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    <div class="L1">
+        <div class="l1">
+            <div>
+                <p>CREATE AN ACCOUNT</p>
+            </div>
+            <div>Need help?</div>
+        </div>
+    </div>
+    <div class="login-form">
+
+        <form action="">
+            <label for="E-mail">E-mail address</label><br>
+            <input type="email" /><br>
+            <label for="Fname">First Name</label><br>
+            <input type="text"><br>
+            <label for="Lname">Last Name</label><br>
+            <input type="text"><br>
+
+            <!-- <input type="Lname"> -->
+            <label for="Password">Create Your Password</label>
+            <input type="password" id="pass"/><span id="show">Show</span>
+            <!-- <a href="#">Create Your Password?</a><br> -->
+            <div style="display: flex; align-items: center;">
+                <input type="checkbox" id="check"><label style="color:#798188;">&nbsp; Remember Me</label>
+              </div>
+            <input type="submit" value="CREATE ACCOUNT" />
+            <p>By creating this account you agree to our <a href="#"> Terms & Conditions.</a> </p>
+            <p>Already have a Clarks Account? <a href="#">Log In</a></p>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
+<script>
+
+    document.getElementById("show").addEventListener("click",()=>{
+      document.getElementById("pass").setAttribute("type","text");
+      document.getElementById("show").textContent="Hide";
+    })
+</script>
+<script src="https://kit.fontawesome.com/d6704551e9.js" crossorigin="anonymous"></script>
