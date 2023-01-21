@@ -9,7 +9,7 @@ let Forfilter=[];
  
     let LSdata=JSON.parse(localStorage.getItem("current"));
     if(LSdata==null){
-      LSdata=[];
+      LSdata={};
     }
 
 
@@ -165,7 +165,7 @@ let Forfilter=[];
         myaddtocartbtn.innerText="Add to Cart";
         myaddtocartbtn.addEventListener("click",function(){
 
-            LSdata.push(element);
+            LSdata=element;
             
             
 
