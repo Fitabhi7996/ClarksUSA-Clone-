@@ -1,4 +1,5 @@
 let mymid=document.getElementById("mid");
+let Shoppingbagbtn=document.getElementById("Shoppingbagbtn")
 
 let myfirstdiv=document.getElementById("firstdiv");
 let seconddivdiv=document.getElementById("seconddiv");
@@ -12,6 +13,7 @@ let LSdata=JSON.parse(localStorage.getItem("current"));
 if(LSdata==null){
   LSdata={};
 }
+LSdata.quantity=1;
 
 let mymidimg=document.createElement("img");
 mymidimg.setAttribute("src",LSdata.image);
@@ -37,3 +39,36 @@ myfifthdiv.append(mymidimg);
 
 myRoundbox.innerHTML=null;
 myRoundbox.append(mymidimg);
+
+let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
+
+Shoppingbagbtn.addEventListener("click",function(){
+
+
+    let count=0;
+    for(let i=0;i<myCartData.length;i++){
+      if(LSdata==myCartData[i]){
+        count++;
+        break;
+      }
+    }
+    if(count==0){
+      
+        myCartData.push(LSdata);
+        localStorage.setItem("myCartData",JSON.stringify(myCartData));
+        alert("Added to Shopping Bag");
+      
+    }else{
+        alert("Already Present in Shopping Bag");
+    }
+    
+
+
+
+
+})
+
+
+
+
+

@@ -1,4 +1,4 @@
-    
+   
      
        body{
         margin: 0px;
@@ -7,11 +7,27 @@
     
 
 /* ------------------------------------------------------------------ */
+
     #mainbody{
-        font-family: sans-serif;
+        font-family: "Montserrat", sans-serif;
     }
     #bluebar{
         background-color: #F3F3F3;
+        padding: 10px 10px;        
+    }
+    #bluebarinnerdiv{       
+       font-size: 14px;
+       margin-left: 200px;
+    }
+    #bluebar button{
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        color: #666666;
+        padding: 5px 10px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 3px;
+        margin-top: 0px;
     }
     #tillpinkbar{
         display: flex;
@@ -24,8 +40,8 @@
     }
     .make90{
         width:90px;
-        height:90px;
-        border: 1px dashed red;
+        height:100px;
+        /* border: 1px dashed red; */
     }
     .make90 img{
         width:100%;
@@ -46,6 +62,7 @@
         width:50%;
         display: flex;
         align-items:flex-end;
+        margin-right: 150px;
     }
     #mid img{
         width:100%;
@@ -53,32 +70,193 @@
     }
 
     #toright{
-        width:40%;
+        width:30%;
+        margin: 0px 0px 25px;
+        padding: 10px
+    }
+    #toright h1{
+        color: #333333;
+        font-size: 25px;
+        margin: 0px 0px 5px;
+    }
+    #toright p{
+        color: #333333;
+        font-size: 20px;
+    }
+    .star{
+        color: #0579D0;
+        font-size: 20px;
+        font-family: 'Times New Roman';
+        margin: -20px 0px 0px;
+    }
+    #ratingcount{
+        color: #0579D0;
+        font-size: 12px;
+        
+    }
+    #toright h3{
+        color: #333333;
+        font-size: 15px;        
+        margin: 0px 0px 15px;
+        font-weight: 200;
+    }
+    #toright h3 span{
+        font-size: 13px;
+        padding: 0px 0px 0px 10px;
+    }
+    #sidetoside{        
+        display: flex;
+        justify-content: space-between;
+    }
+    #sidetoside :nth-child(1){
+        color: #000000;
+        font-size: 15px;        
+        margin: 20px 5px 15px 0px;
+    }
+    #sidetoside :nth-child(2){
+        color: #0570c1;
+        font-size: 14px; 
+        margin: 20px 5px 15px 0px;
+    }
+    #sizediv button{
+        color: #333333;
+        font-size: 13px;
+        margin: 0px 10px 10px 0px;   
+        /* padding: 12px; */
+        border-radius: 9px;
+        width:59px;
+        height: 50px;
+        border: 1px solid #333333;
+        background-color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+    #selectwidth{
+        color: #000000;
+        font-size: 15px; 
+        padding: 17px 5px 2px 0px;  
+    }
+    .widthbtn{
+        color: #333333;
+        font-size: 13px;
+        margin: 0px 5px 10px 0px;
+        padding: 12px 20px; 
+        border-radius: 9px;
+        height: 50px;
+        border: 1px solid #333333;
+        background-color: white; 
+        font-family: "Montserrat", sans-serif;   
+    }
+    #Shoppingbagbtn{
+        color: #FFFFFF;
+        font-size: 17px;
+        background-color: #0579D0;
+        border-radius: 5px;
+        height: 50px;
+        border: none;  
+        width: 100%;
+        margin: 20px 5px 10px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+    #pinkbar{
+        display: flex;
+        background-color: #FCB3C7;
+        padding: 5px 10px;
+        font-family: "Montserrat", sans-serif;
+    }
+    #pinkbar :nth-child(1){
+        font-size: 14px;  
+        color: #000000;
+        margin-right: 10px;
+        font-weight: bolder;      
+    }
+    #pinkbar :nth-child(2),  #pinkbar :nth-child(3){
+        font-size: 11.8px;  
+        color: #333333;
+        font-family: "Montserrat", sans-serif; 
+        margin-left: 10px;
+        padding-top: 6px;
+    }
+    #pinkbar :nth-child(3){
+        text-decoration-line: underline;
     }
 
 
 #ProdDesc{
+    font-family: "Montserrat", sans-serif;
     display: flex;
     width:80%;
     margin: auto;
     background-color: #F3F3F3;
+    color: #333333;  
+    
+}
+#ProdDesc>div:nth-child(1){
+    padding: 30px 0px 30px 30px;
+    width:150%;
+}
+#ProdDesc>div:nth-child(1)>h2{
+    font-size: 22px;
+    margin: 0px 0px 10px;
+    padding: 40px 10px 0px;
+}
+#ProdDesc>div:nth-child(1)>p{    
+    font-size: 14px;
+    margin: 0px 0px 13px;
+    padding: 5px 60.5625px 5px 0px;
+}
+
+#ProdDesc>div:nth-child(2){
+    padding: 40px 10px 0px;
+   
+}
+#ProdDesc>div:nth-child(2)>div{    
+    border: 1px solid  #333333;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0px 10px 20px;
+    padding: 20px 20px;
+   
+}
+.line{
+    display: inline;
+}
+.boldit{    
+    font-weight: bold;
+}
+#delivery{
+    text-align: center;
 }
 
 
 #proddetailsandpayments{
-    display: flex;
     width:80%;
     margin: auto;
     text-align: center;
 }
-#prodDetails{
+.heading{
+    font-size: 18px;
+}
+#proddetailsandpayments>div{
+    display: flex;
+    padding: 10px;
+}
+#prodDetails, #prodPayments{
+    /* background-color: green; */
     width:50%;
+    font-size: 15px;
+    padding: 15px;
 }
 
 #prodDetails>div{
+    /* background-color: pink; */
     display: flex;
-    /* border: 2px dashed green; */
+    justify-content: space-between;
     text-align: left;
+    margin-left: 120px;
+    width:55%
+}
+.right{
+    text-align:right;
 }
 #prodPayments{
     width:50%; 
@@ -94,33 +272,42 @@
 
 #othersBought>div{
     display: flex;
-    border: 2px dashed green;   
+    /* border: 2px dashed green;    */
     justify-content: space-between; 
 }
-#othersBought>div>div{
-    border: 2px dashed red;  
-    width:22%  
+.cards{
+    /* border: 2px dashed red;   */
+    width:22% ;
+    color: #333333;
+    font-size: 14px; 
+    padding: 0px 22.9531px;
 }
 #othersBought img{
     width:70%
 }
-#othersBought p{
+#othersBought>div p{
     text-align: right;
 }
-
+#headingothersBought{
+    color: #333333;
+    font-size: 24px;
+    padding: 40px 0px 0px;
+}
 .L{
     text-align: left;
+    font-size: 16px;
+    font-weight: 200;
 }
 .R{
     text-align: right;
+    font-size: 16px;
+    font-weight: 200;
+}
+.red{
+    color: #E50F0F;
 }
 
-
-#Reviews{
-    width:90%; 
-    margin: auto;
-    border: 2px dashed green
-}
-#Reviews img{
-    /* width:100% */
+.topright{
+    color: #9A6D3B;
+    font-size: 16px;
 }
