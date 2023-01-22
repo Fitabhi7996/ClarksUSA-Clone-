@@ -108,7 +108,7 @@ let Forfilter=[];
 
 
 
-    let request=fetch("https://embarrassed-bull-moccasins.cyclic.app/products");
+    let request=fetch("https://embarrassed-bull-moccasins.cyclic.app/bestsellers");
     request.then(function(res){
       let reqdata=res.json();
       console.log(reqdata)
@@ -158,7 +158,7 @@ let Forfilter=[];
         myprice.innerText=`$ ${element.price}`;
 
        let myanchortag=document.createElement("a");
-       myanchortag.setAttribute("href","./nextpageprovided by neha")
+       myanchortag.setAttribute("href","./oneproduct.html")
 
         
         let myaddtocartbtn=document.createElement("button");
