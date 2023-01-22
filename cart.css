@@ -142,7 +142,7 @@ margin: 8px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 50px;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 .K132 {
     width: 30%;
@@ -229,7 +229,7 @@ margin: 8px;
 
 
 #K131 > div {
-    border:2px solid rgb(6, 6, 6);
+    /* border:2px solid rgb(6, 6, 6); */
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -237,7 +237,7 @@ margin: 8px;
    
 }
 #K131 > div > div {
-    border:2px solid rgb(6, 241, 108);
+    /* border:2px solid rgb(6, 241, 108); */
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -248,14 +248,14 @@ margin: 8px;
 width: 100%;
 }
 #K131 > div > div:last-child > div:nth-child(1) {
-    border:2px solid red;
+    /* border:2px solid red; */
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
 #K131 > div > div:last-child > div:nth-child(1) ~ div {
-    border:2px solid red;
+    /* border:2px solid red; */
 display: flex;
 justify-content: space-between;
 align-items: center;
