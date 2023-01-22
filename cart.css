@@ -139,6 +139,10 @@ margin: 8px;
 }
 #K131 {
     width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px;
+    border:2px solid red;
 }
 .K132 {
     width: 30%;
@@ -186,13 +190,93 @@ margin: 8px;
 }
 
 .K132 > div {
+    padding-right: 30px;
     display: flex;
     justify-content:space-between;
 }
+.K132 > button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 18px 160px;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-align: center;
+    color: #666;
+    border: 1px solid #f3f3f3;
+    background-color: #0579d0 ;
+}
+
+.K132 > button > a {
+    color: #f3f3f3;
+}
+
+.K132 a:link{
+    text-decoration: none;
+    
+}
+.K132  a:visited{
+    text-decoration: none;
+    
+
+}
+.K132  a:hover{
+    text-decoration: none;
+    
+}
+.K132  a:active{
+    text-decoration: none;
+}
+
 
 #K131 > div {
+    border:2px solid rgb(6, 6, 6);
     display: flex;
-    width: 70%;
+    width: 100%;
+    justify-content: space-around;
     
    
 }
+#K131 > div > div {
+    border:2px solid rgb(6, 241, 108);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#K131 > div > div:first-child img {
+width: 100%;
+}
+#K131 > div > div:last-child > div:nth-child(1) {
+    border:2px solid red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#K131 > div > div:last-child > div:nth-child(1) ~ div {
+    border:2px solid red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#K131 > div > div:last-child > div:nth-child(1) ~ div > div{
+border: 1px solid #666;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40%;
+height: 100%;
+
+}
+#K131 > div > div:last-child > div:nth-child(1) ~ div > div p {
+margin: 0px;
+}
+
+#K131 > div > div:last-child  > button{
+
+    margin-top: 20px;
+}
+
+
+

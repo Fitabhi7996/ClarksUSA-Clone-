@@ -7,22 +7,38 @@ let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
     let Estimatedtotal=document.getElementById("Estimatedtotal");
     let cupon=document.getElementById("cupon");
     let cuponbtn=document.getElementById("cuponbtn");
+    let CHECKOUTNOW=document.getElementById("CHECKOUTNOW");
+
     let Numberoftimes=0;
 
 
 
 
     let totalpay;
-    if(myCartData.length==0){
-      MyShoppingBag.innerHTML=null;
-      MyShoppingBag.innerHTML=`Your shopping bag is empty`;
-    }else{
-      MyShoppingBag.innerHTML=null;
-      MyShoppingBag.innerHTML=`My Shopping Bag`;
-    }
+    
     
 
     createdom(myCartData);
+
+    CHECKOUTNOW.addEventListener("click",function(){
+      if(myCartData.length==0){
+        alert("Add Items to Cart")
+        CHECKOUTNOW.innerHTML=null;
+        let myanchor=document.createElement("a");
+        myanchor.setAttribute("href","#");
+        myanchor.innerHTML="CHECKOUT NOW";
+        CHECKOUTNOW.append(myanchor)
+      }else{
+        myCartData=[];
+        localStorage.setItem("myCartData",JSON.stringify(myCartData));
+
+      }
+
+
+      
+
+
+    })
 
 
 
@@ -35,6 +51,8 @@ let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
 
       data.forEach(function(element,index){
         sum=sum+((element.quantity)*(element.price))
+
+        let div=document.createElement("div");
 
         let firstdiv=document.createElement("div");
 
@@ -72,6 +90,7 @@ let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
         plusbtn.innerHTML='+';
         plusbtn.addEventListener("click",function(){
           element.quantity=element.quantity+1;
+          localStorage.setItem("myCartData",JSON.stringify(myCartData));
           createdom(myCartData);
 
 
@@ -92,8 +111,14 @@ let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
         minusbtn.innerHTML='-';
 
         minusbtn.addEventListener("click",function(){
+
+
           
           element.quantity=element.quantity-1;
+          if(element.quantity<=0){
+            element.quantity=0;
+          }
+          localStorage.setItem("myCartData",JSON.stringify(myCartData));
           createdom(myCartData);
           
 
@@ -127,7 +152,8 @@ let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
         })
 
         seconddiv.append(Cancelbtn)
-        maincontainer.append(firstdiv,seconddiv);
+        div.append(firstdiv,seconddiv);
+        maincontainer.append(div)
        
 
         
@@ -151,6 +177,16 @@ let myCartData=JSON.parse(localStorage.getItem("myCartData")) || [];
       Subtotal.innerHTML=`$ ${sum}`;
       Taxes.innerHTML=`$ ${Math.floor(0.18*sum)}`;
       Estimatedtotal.innerHTML=`$ ${totalpay}`;
+
+      if(myCartData.length==0){
+        MyShoppingBag.innerHTML=null;
+        MyShoppingBag.innerHTML=`Your shopping bag is empty`;
+        
+  
+      }else{
+        MyShoppingBag.innerHTML=null;
+        MyShoppingBag.innerHTML=`My Shopping Bag`;
+      }
 
       
 
