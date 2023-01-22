@@ -1,0 +1,104 @@
+html , body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: color #666;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#container {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color:whitesmoke;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+
+
+}
+#container > img {
+    width: 50%;
+    border-radius: 50%;
+
+}
+.K5 {
+    width: 100%;
+  
+    padding: 0px 0px 0px 0px;
+   
+}
+
+
+.K51 {
+    margin-top: 0px;
+    margin: 0px;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.K51 > h1 {
+ text-align: center;
+ color: #333333;
+}
+
+.K51 > p {
+ text-align: center;
+ color: #666;
+}
+
+.K52 {
+  
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.K52 button,.K6  button{
+padding: 7px 30px;
+border-radius: 2px;
+white-space: nowrap;
+text-align: center;
+color: #666;
+border: 1px solid #666;
+background-color: white;
+}
+.K52 > button {
+    margin-right: 30px;
+}
+.K52 > button:last-child {
+    margin-right: 0px;
+}
+
+.K52 a,.K6  a {
+    color: black;
+}
+
+.K52 a,.K6   a:link{
+    text-decoration: none;
+    
+}
+.K52 a,.K6   a:visited{
+    text-decoration: none;
+    
+
+}
+.K52 a,.K6   a:hover{
+    text-decoration: none;
+    
+}
+.K52 a,.K6   a:active{
+    text-decoration: none;
+}

@@ -9,7 +9,7 @@ let Forfilter=[];
  
     let LSdata=JSON.parse(localStorage.getItem("current"));
     if(LSdata==null){
-      LSdata=[];
+      LSdata={};
     }
 
 
@@ -158,14 +158,14 @@ let Forfilter=[];
         myprice.innerText=`$ ${element.price}`;
 
        let myanchortag=document.createElement("a");
-       myanchortag.setAttribute("href","./nextpageprovided by neha")
+       myanchortag.setAttribute("href","./oneproduct.html")
 
         
         let myaddtocartbtn=document.createElement("button");
-        myaddtocartbtn.innerText="Add to Cart";
+        myaddtocartbtn.innerText="See Details";
         myaddtocartbtn.addEventListener("click",function(){
 
-            LSdata.push(element);
+            LSdata=element;
             
             
 
