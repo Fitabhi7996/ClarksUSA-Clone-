@@ -189,3 +189,10 @@ margin: 8px;
     display: flex;
     justify-content:space-between;
 }
+
+#K131 > div {
+    display: flex;
+    width: 70%;
+    
+   
+}

@@ -1,4 +1,4 @@
-   
+    
      
        body{
         margin: 0px;
@@ -310,4 +310,29 @@
 .topright{
     color: #9A6D3B;
     font-size: 16px;
+}
+
+#Shoppingbagbtn a {
+
+}
+
+#Shoppingbagbtn a {
+    color: #f3f3f3;
+}
+
+#Shoppingbagbtn  a:link{
+    text-decoration: none;
+    
+}
+#Shoppingbagbtn a:visited{
+    text-decoration: none;
+    
+
+}
+#Shoppingbagbtn  a:hover{
+    text-decoration: none;
+    
+}
+#Shoppingbagbtn  a:active{
+    text-decoration: none;
 }
