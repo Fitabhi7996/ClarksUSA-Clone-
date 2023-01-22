@@ -58,7 +58,7 @@ body{
     background-color: #f3f3f3;
 }
 
-.K11  button{
+#K1111 button{
     padding: 18px 160px;
     border-radius: 4px;
     white-space: nowrap;
@@ -68,7 +68,7 @@ body{
     background-color: #0579d0 ;
 }
 
-.K11 {
+#K1111 {
     width: 100%;
     display: flex;
     padding: 40px 30px 20px 30px;
@@ -87,24 +87,24 @@ margin: 8px;
 
 
 
-.K11  a {
+#K1111  a {
     color: #f3f3f3;
 }
 
-.K11  a:link{
+#K1111  a:link{
     text-decoration: none;
     
 }
-.K11  a:visited{
+#K1111  a:visited{
     text-decoration: none;
     
 
 }
-.K11   a:hover{
+#K1111   a:hover{
     text-decoration: none;
     
 }
-.K11   a:active{
+#K1111  a:active{
     text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ margin: 8px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 50px;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 .K132 {
     width: 30%;
@@ -229,7 +229,7 @@ margin: 8px;
 
 
 #K131 > div {
-    border:2px solid rgb(6, 6, 6);
+    /* border:2px solid rgb(6, 6, 6); */
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -237,7 +237,7 @@ margin: 8px;
    
 }
 #K131 > div > div {
-    border:2px solid rgb(6, 241, 108);
+    /* border:2px solid rgb(6, 241, 108); */
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -248,14 +248,14 @@ margin: 8px;
 width: 100%;
 }
 #K131 > div > div:last-child > div:nth-child(1) {
-    border:2px solid red;
+    /* border:2px solid red; */
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
 #K131 > div > div:last-child > div:nth-child(1) ~ div {
-    border:2px solid red;
+    /* border:2px solid red; */
 display: flex;
 justify-content: space-between;
 align-items: center;
