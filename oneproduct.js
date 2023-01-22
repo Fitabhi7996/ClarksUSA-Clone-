@@ -1,4 +1,4 @@
-/* <!-- Neha's work date 21/1/23 to be added in main--> */
+
 
 let mymid=document.getElementById("mid");
 
@@ -128,8 +128,4 @@ Shoppingbagbtn.addEventListener("click",function(){
 
 
 })
-
-
-
-
 
