@@ -19,27 +19,6 @@ In this project we have tried to manipulate dom elements, styling using css and 
 
 For storing user data we also used localStorage.
 
-# Snapshots 📷
-* Landing page (Home page)
-
-![Landing page (Home page)]()
-
-* Product page
-
-![Product page]()
-
-
-* Checkout page
-
-![Checkout page]()
-
-* Login page
-
-![Login page]()
-
-* Success page
-
-![Success page]()
 
 ## How to run the Project
 * Open pages directory.
