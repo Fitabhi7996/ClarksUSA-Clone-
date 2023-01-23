@@ -20,3 +20,8 @@ document.querySelector("#bestSellers").addEventListener("click",function(){
 document.querySelector("#logo").addEventListener("click",function(){
   window.location.href="index.html"
 })
+document.querySelector("#logIn").addEventListener("click",function(){
+  window.location.href="login.html"
+})
+
+

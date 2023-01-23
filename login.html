@@ -225,7 +225,7 @@ a{
    
     <form action="">
         <label for="E-mail">E-mail address</label>
-      <input type="text"/>
+      <input  type="text"/>
       <label for="Password">Password</label>
       <input type="password" id="pass"/><span id="show">Show</span>
       <a href="#">Forgot Your Password?</a><br>
@@ -342,6 +342,11 @@ a{
     document.getElementById("show").addEventListener("click",()=>{
       document.getElementById("pass").setAttribute("type","text");
       document.getElementById("show").textContent="Hide";
+    })
+    document.querySelector("form").addEventListener("submit",function(){
+        event.preventDefault()
+        alert("Login Successful")
+     window.location.href="index.html"
     })
 </script>
 </html>

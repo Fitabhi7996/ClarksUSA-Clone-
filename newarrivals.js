@@ -2,6 +2,7 @@ let mycontainer=document.getElementById("K722");
 let myfilterKS1=document.getElementById("KS1");
 let myfilterKS711=document.getElementById("KS711");
 let myfilterKS712=document.getElementById("KS712");
+let mysearchbykk=document.getElementById("searchbykk");
 let Forfilter=[];
  
     let myheading=document.getElementById("count");
@@ -11,6 +12,24 @@ let Forfilter=[];
     if(LSdata==null){
       LSdata={};
     }
+
+    mysearchbykk.addEventListener("change", (e) => {
+      // let filterBy = e.target.elements['searchbykk'].value;
+      console.log(e)
+      let filterBy = e.target.value;
+      let newData = Forfilter.filter((el, index) => {
+          // condition
+          // return el.type===filterBy.toLowerCase();
+          // if(el.type.toLowerCase().includes(filterBy.toLowerCase())){
+          //   return true;
+          // }else{
+          //   return false;
+          // }
+          return el.type.toLowerCase().includes(filterBy.toLowerCase())
+
+      });
+      createDOM(newData);
+    });
 
 
     myfilterKS1.addEventListener("change",function(){
