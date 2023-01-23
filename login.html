@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
     body {
@@ -89,133 +89,378 @@ a{
   </style>
 </head>
 <body>
-  <nav>
-    <div id="clearance">
-        <span>SAVE UP TO </span><span>50% OFF CLEARANCE*</span><span>USE CODE: EXTRA</span>
-    </div>
-    <div id="trackorder">
-        <span><img src="https://cdn-icons-png.flaticon.com/512/664/664468.png" alt="Error"> Track Order</span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/684/684809.png">Store Locator</span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/2609/2609282.png">Log in / Register </span>
-    </div>
-    <div id="clarks">
-        <div id="logo"><img src="./clarks img.jpg" alt=""></div>
+    <nav>
+        <div id="clearance">
+            <span>SAVE UP TO </span><span>50% OFF CLEARANCE*</span><span>USE CODE: EXTRA</span>
+        </div>
+        <div id="scroll">
+            <div id="trackorder">
+                <span><img src="https://cdn-icons-png.flaticon.com/512/664/664468.png" alt="Error"> Track Order</span>
+                <span><img src="https://cdn-icons-png.flaticon.com/512/684/684809.png"> Store Locator</span>
+                <span id="logIn"><img src="https://cdn-icons-png.flaticon.com/512/2609/2609282.png">Log in / Register</span>
+            </div>
+            <div id="clarks">
+                <div id="logo"><img src="./clarks img.jpg" alt=""></div>
 
-        <div id="navbaritems">
-            <div class="dropdown">
-                <p class="dropbtn">Women</p>
-                <div class="dropdown-content">
-                    <div> 
-                        <h4> <i class="fa-solid fa-arrow-right"></i>  SHOP ALL WOMEN'S</h4>
-                        <hr>
-                        <h4>SHOP FEATURED</h4>
-                        <ul style="list-style-type:none">
-                        <li>New Arrivals</li>
-                        <li>Best Sellers</li>
-                        <li>Wide Fit</li>
-                        <li>Comfort</li>
-                        <li>Casual</li>
-                        <li>Sale</li>
-                        </ul>
+                <div id="navbaritems">
+                    <div class="dropdown">
+                        <p class="dropbtn">Women</p>
+                        <div id="dropdown-content-women" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP ALL WOMEN'S</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP FEATURED</h4>
+                                    <li id="newArrivals">New Arrivals</li>
+                                    <li id="bestSellers">Best Sellers</li>
+                                    <li>Wide Fit</li>
+                                    <li>Comfort</li>
+                                    <li>Casual</li>
+                                    <li>Sale</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> NEW ARRIVALS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP BY STYLE</h4>
+                                    <li>Boots & Booties</li>
+                                    <li>Dress Shoes</li>
+                                    <li>Clogs & Mules</li>
+                                    <li>Loafers</li>
+                                    <li>Heels</li>
+                                    <li>Slippers</li>
+                                    <li>Platform & Wedge</li>
+                                    <li>Flats</li>
+                                    <li>Sandals & Flip Flops</li>
+                                    <li>Slip-Ons</li>
+                                    <li>Sneakers</li>
+                                    <li>Originals</li>
+                                    <li>Shop All Styles</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> BEST SELLERS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP BY COLLECTION</h4>
+                                    <li> Clarkwell Collection</li>
+                                    <li> GCDS Collection</li>
+                                    <li> Breeze Collection</li>
+                                    <li> ATL Collection</li>
+                                    <li> Pure Shoe Collection</li>
+                                    <li>Icons Reimagined</li>
+                                    <li>Platform & Wedge</li>
+                                    <li>Cloudsteppers</li>
+                                    <li> Mini Me Collection</li>
+                                    <h3>SHOP ACCESSORIES</h3>
+                                    <li> Slippers</li>
+                                    <li>Shoe Care</li>
+                                    <li>Shop All Styles</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> BEST SELLERS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>BLOG</h4>
+                                    <img src="https://clarks.scene7.com/is/image/Pangaea2Build/AW22WATLTrailUpWPOnsiteBannerMobile705?wid=286&fmt=pjpeg"
+                                        alt="">
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h4> <i class="fa-solid fa-arrow-right"></i>  NEW ARRIVALS</h4>
-                        <hr>
-                        <h4>SHOP BY STYLE</h4>
-                        <ul style="list-style-type:none">
-                        <li>Boots & Booties</li>
-                        <li>Dress Shoes</li>
-                        <li>Clogs & Mules</li>
-                        <li>Loafers</li>
-                        <li>Heels</li>
-                        <li>Slippers</li>
-                        <li>Platform & Wedge</li>
-                        <li>Flats</li>
-                        <li>Sandals & Flip Flops</li>
-                        <li>Slip-Ons</li>
-                        <li>Sneakers</li>
-                        <li>Originals</li>
-                        <li>Shop All Styles</li>
-                        </ul>
+                    <div class="dropdown">
+                        <p class="dropbtn">Men</p>
+                        <div id="dropdown-content-men" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP ALL MEN'S</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP FEATURED</h4>
+                                    <li>New Arrivals</li>
+                                    <li>Best Sellers</li>
+                                    <li>Wide Fit</li>
+                                    <li>Comfort</li>
+                                    <li>Casual</li>
+                                    <li>Sale</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> NEW ARRIVALS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP BY STYLE</h4>
+                                    <li>Boots</li>
+                                    <li>Clogs & Mules</li>
+                                    <li>Loafers</li>
+                                    <li>Slippers</li>
+                                    <li>Platform & Wedge</li>
+                                    <li>Flats</li>
+                                    <li>Sandals & Flip Flops</li>
+                                    <li>Slip-Ons</li>
+                                    <li>Sneakers</li>
+                                    <li>Originals</li>
+                                    <li>Shop All Styles</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> BEST SELLERS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP BY COLLECTION</h4>
+                                    <li> Clarkwell Collection</li>
+                                    <li> GCDS Collection</li>
+                                    <li> Breeze Collection</li>
+                                    <li> ATL Collection</li>
+                                    <li> Pure Shoe Collection</li>
+                                    <li>Icons Reimagined</li>
+                                    <li>Platform & Wedge</li>
+                                    <li>Cloudsteppers</li>
+                                    <li> Mini Me Collection</li>
+                                    <h3>SHOP ACCESSORIES</h3>
+                                    <li> Slippers</li>
+                                    <li>Shoe Care</li>
+                                    <li>Shop All Styles</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> BEST SELLERS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>BLOG</h4>
+                                    <img src="https://clarks.scene7.com/is/image/Pangaea2Build/AW22MATLTrailUpWPOnsiteBannerMobile705?wid=286&fmt=pjpeg"
+                                        alt="">
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h4> <i class="fa-solid fa-arrow-right"></i>  BEST SELLERS</h4>
-                        <hr>
-                        <h4>SHOP BY COLLECTION</h4>
-                        <ul style="list-style-type:none">
-                        <li> Clarkwell Collection</li>
-                        <li> GCDS Collection</li>
-                        <li> Breeze Collection</li>
-                        <li> ATL Collection</li>
-                        <li> Pure Shoe Collection</li>
-                        <li>Icons Reimagined</li>
-                        <li>Platform & Wedge</li>
-                        <li>Cloudsteppers</li>
-                        <li> Mini Me Collection</li>
-                        <h3>SHOP ACCESSORIES</h3> 
-                        <li>   Slippers</li>
-                        <li>Shoe Care</li>
-                        <li>Shop All Styles</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="dropdown">
-                <p class="dropbtn">Men</p>
-                <div class="dropdown-content">
-                   
-                </div>
-            </div>
-            <div class="dropdown">
-                <p class="dropbtn">Kids</p>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <p class="dropbtn">Originals</p>
-                <div class="dropdown-content">
-                   
-                </div>
-            </div>
-            <div class="dropdown">
-                <p class="dropbtn">Accesories</p>
-                <div class="dropdown-content">
-                
-                </div>
-            </div>
-            <div class="dropdown">
-                <p class="dropbtn">Sale</p>
-                <div class="dropdown-content">
-                 
-                </div>
-            </div>
-            <div class="dropdown">
-                <p class="dropbtn">Sustainability</p>
-                <div class="dropdown-content">
-                  
-                </div>
-            </div>
-        </div>
-        <div id="searchCart">
-            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
-        </div>
-    </div>
-    <hr>
+                    <div class="dropdown">
+                        <p class="dropbtn">Kids</p>
+                        <div id="dropdown-content-kids" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> KIDS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>GIRLS</h4>
+                                    <li> Boots</li>
+                                    <li> Sandals</li>
+                                    <li> Shoes</li>
+                                    <li> Sneakers</li>
+                                    <li> Toddeler Shoes</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> </h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>BOYS</h4>
+                                    <li> Boots</li>
+                                    <li> Sandals</li>
+                                    <li> Shoes</li>
+                                    <li> Sneakers</li>
+                                    <li> Toddeler Shoes</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> </h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>COLLECTION</h4>
+                                    <li> Cica Collection</li>
+                                    <li> Cloudsteppers</li>
+                                    <li> Craft Sports</li>
+                                    <li> Mini Me Collection</li>
+                                    <li> Originals</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> </h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>VIEW KIDS SALE</h4>
+                                    <li> Cica Collection</li>
 
-    <div id="shipping">
-        <div>
-            <span>FREE SHIPPING</span>
-            <span>ON ORDERS OVER $75</span>
-            <span>|</span>
-            <span>FREE RETURNS</span>
-            <span>EVERYDAY</span>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <p class="dropbtn">Originals</p>
+                        <div id="dropdown-content-originals" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP ORIGINALS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP MENS</h4>
+                                    <li> Boots</li>
+                                    <li> Shoes</li>
+                                    <li> Sneakers</li>
+                                    <li> Toddeler Shoes</li>
+                                </ul>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP WOMENS</h4>
+                                    <li> Boots</li>
+                                    <li> Shoes</li>
+                                    <li> Wallabee</li>
+                                    <li> Sneakers</li>
+                                    <li> Toddeler Shoes</li>
+                                    <h4>SHOP KIDS</h4>
+                                    <h4>ORIGINALS SALE</h4>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> NEW ARRIVALS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>SHOP ICONS</h4>
+                                    <li> Wallabee</li>
+                                    <li> Desert Boots</li>
+                                    <li> Desert Trek</li>
+                                    <li> Weaver</li>
+                                </ul>
+                                <ul style="list-style-type:none">
+                                    <h4>COLLECTION</h4>
+                                    <li> Sashiko Collection</li>
+                                    <li> Desert Trek 50th Collection</li>
+                                    <li> Paradise Forest</li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> KIDS ORIGINALS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>COLLABORATION</h4>
+                                    <li> 8th Street</li>
+                                    <li> Moncler</li>
+                                    <li> Pokemon</li>
+                                    <li> Salehe Bembury</li>
+                                </ul>
+
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> 8th STREET</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>8TH STREET COLLECTION</h4>
+                                    <img src="https://clarks.scene7.com/is/image/Pangaea2Build/ClarksHomepageBanner_8thSt_70505?wid=286&fmt=pjpeg"
+                                        alt="">
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <p class="dropbtn">Accesories</p>
+                        <div id="dropdown-content-accesories" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP ACCESSORIES</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>WOMENS</h4>
+                                    <li> All Accesories</li>
+                                    <li> Slippers</li>
+                                    <li> Socks</li>
+                                    <li> Shoe Care</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP SALE</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>MENS</h4>
+                                    <li> All Accesories</li>
+                                    <li> Belts</li>
+                                    <li> Slippers</li>
+                                    <li> Socks</li>
+                                    <li> Shoe Care</li>
+                                    <li>Wallets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <p class="dropbtn">Sale</p>
+                        <div id="dropdown-content-sale" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP SALE</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>FEATURED</h4>
+                                    <li> Mens New Markdowns</li>
+                                    <li> Womens New Markdowns</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> ORIGINALS SALE</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>WOMENS</h4>
+                                    <li> All Sale</li>
+                                    <li> Boots</li>
+                                    <li> Sandals</li>
+                                    <li> Casual Shoes</li>
+                                    <li> Dress Shoes</li>
+                                    <li> Accesories</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> SHOP MARKDOWNS</h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>MENS</h4>
+                                    <li> All Sale</li>
+                                    <li> Boots</li>
+                                    <li> Casual Shoes</li>
+                                    <li> Dress Shoes</li>
+                                    <li> Accesories</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <p class="dropbtn">Sustainability</p>
+                        <div id="dropdown-content-sustain" class="dropdown-content">
+                            <div>
+                                <h4> <i class="fa-solid fa-arrow-right"></i> </h4>
+                                <hr>
+                                <ul style="list-style-type:none">
+                                    <h4>EVERY MOVE MATTERS</h4>
+                                    <li> Earth Day</li>
+                                    <li> Origin</li>
+                                    <li> Leather Work</li>
+                                    <li> Originals</li>
+                                    <li> Originals Sevens</li>
+                                    <li>Tri Native</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="searchCart">
+                    <div class="search-box">
+                        <button class="btn-search"><i class="fas fa-search"></i></button>
+                        <input type="text" class="input-search" placeholder="Type to Search...">
+                      </div>
+                    
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
         </div>
-    </div>
-</nav>
+            <hr>
+
+            <div id="shipping">
+                <div>
+                    <span>FREE SHIPPING</span>
+                    <span>ON ORDERS OVER $75</span>
+                    <span>|</span>
+                    <span>FREE RETURNS</span>
+                    <span>EVERYDAY</span>
+                </div>
+            </div>
+        
+    </nav>
     <div class="L1">
         <div class="l1">
             <div><p>Log In</p></div><div>Need help?</div>
@@ -348,5 +593,9 @@ a{
         alert("Login Successful")
      window.location.href="index.html"
     })
+    document.querySelector("#logo").addEventListener("click",function(){
+  window.location.href="index.html"
+})
 </script>
+<!-- <script src="index.js"></script> -->
 </html>

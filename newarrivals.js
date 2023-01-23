@@ -219,3 +219,6 @@ let Forfilter=[];
 
 
     }
+    document.querySelector("#cartA").addEventListener("click",function(){
+      window.location.href="cart.html"
+    })

@@ -23,5 +23,8 @@ document.querySelector("#logo").addEventListener("click",function(){
 document.querySelector("#logIn").addEventListener("click",function(){
   window.location.href="login.html"
 })
+document.querySelector("#cartA").addEventListener("click",function(){
+  window.location.href="cart.html"
+})
 
 

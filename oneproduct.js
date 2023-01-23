@@ -1,5 +1,3 @@
-
-
 let mymid=document.getElementById("mid");
 
 
@@ -128,4 +126,9 @@ Shoppingbagbtn.addEventListener("click",function(){
 
 
 })
-
+document.querySelector("#logo").addEventListener("click",function(){
+  window.location.href="index.html"
+})
+document.querySelector("#cartA").addEventListener("click",function(){
+  window.location.href="cart.html"
+})

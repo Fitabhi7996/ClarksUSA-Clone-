@@ -221,3 +221,6 @@ let mysearchbykk=document.getElementById("searchbykk");
 
 
     }
+    document.querySelector("#cartA").addEventListener("click",function(){
+      window.location.href="cart.html"
+    })
